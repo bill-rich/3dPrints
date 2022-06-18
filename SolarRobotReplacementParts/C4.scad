@@ -11,7 +11,7 @@ hexWidth = 1.8;
 difference(){
     union(){
         cylinder(10, r, r);
-        translate([0, 0, 6]){
+        translate([0, 0, 3]){
             cylinder(1 , 3.5, 3.5);
         };
     }
@@ -33,7 +33,7 @@ difference(){
             };
         };
     };
-    translate([0, 0, 7]){
-        cylinder(3,2,2);
+    translate([0, 0, 4]){
+        cylinder(6,2,2);
     };
 };
